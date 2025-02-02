@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/TCL_1.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Trevor Lee | Portfolio
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#certificates" class="nav__link">Certificates</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Trevor Lee</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>I am a cybersecurity analyst passionate about securing systems and exploring innovative tech solutions. I continuously seek to learn about the latest trends and emerging technologies to stay ahead in the field. 
+          I am also dedicated to pursuing a future with the Air Force, where I can apply my skills to serve a greater mission. Based in Colorado, USA. I am eager to contribute, grow, and make a meaningful impact. </p>
+        <a href="#contact" class="btn btn--blue">Let's Connect</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>SIEM (Security Information and Event Management)</h3>
+              <p>
+                Use a SIEM tool (Splunk) to monitor and analyze security events. 
+                Simulate an attack (e.g., brute force, DDoS, malware), and create alerts for suspicious behavior or security incidents.
+              </p>
+              <ul class="work__list">
+                <li>Splunk</li>
+                <li>Log Aggregation</li>
+                <li>Real-Time Monitoring</li>
+                <li>Incident Detection and Response</li>
+                <li>Alerting and Reporting</li>
+                <li>Event Correlation</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="project1.html" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <!--
+                <a href="project1.html" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+                -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/what-is-siem.webp" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Network Traffic Analysis</h3>
+              <p>
+                Capture and analyze network traffic using Wireshark to identify potential security issues such as 
+                unencrypted traffic, packet sniffing, or suspicious protocols.
+              </p>
+              <ul class="work__list">
+                <li>Wireshark</li>
+                <li>Packet Capture (PCAPs)</li>
+                <li>Traffic Filtering and Analysis</li>
+                <li>Protocol Analysis (TCP/UDP)</li>
+                <li>tcpdump</li>
+                <li>Network Anomalies</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="project2.html" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/Wireshark.webp" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Web Application Vulnability Assessment</h3>
+              <p>
+                Perform a security assessment of a web application using Burp Suite 
+                to identify vulnerabilities like XSS, SQL injection, and others from the OWASP Top 10.
+              </p>
+              <ul class="work__list">
+                <li>Burp Suite</li>
+                <li>OWASP</li>
+                <li>Web Application Scanning</li>
+                <li>Vulnability Exploration</li>
+                <li>Proxy Intercepting</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="project3.html" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/burp2.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Keystroke Log Analyzer with Word Extraction and Pattern Detection</h3>
+              <p>
+                This is a simple keylogger utilizing a python script, as well as another python script
+                 to analyze the key log for pattern recognization for potential access to accounts.
+              </p>
+              <ul class="work__list">
+                <li>Keylogger</li>
+                <li>Python Scripting</li>
+                <li>Regex</li>
+                <li>Pattern Recognization</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="project4.html" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/keylogger.webp" class="work__image" alt="Project 4" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Certificates ***** -->
+
+    <section class="certificates" id="certificates">
+      <div class="row">
+        <h2>My Certifications</h2>
+        <div class="certificates__list">
+          <div class="certificate__box">
+            <h3>Google Cybersecurity Certificate</h3>
+            <p>Earned a certificate in Cybersecurity from Google, focusing on key security principles and tools for IT professionals.</p>
+            <a href="https://www.coursera.org/account/accomplishments/professional-cert/4SEHAYLNLQ9C?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=prof" target="_blank" class="btn btn--blue">View Certificate</a>
+          </div>
+
+          <div class="certificate__box">
+            <h3>CompTIA Security+ Certification</h3>
+            <p>Achieved the CompTIA Security+ certification, demonstrating a foundational understanding of security concepts, tools, and procedures.</p>
+            <a href="https://www.certmetrics.com/comptia/public/verification.aspx?code=3T722F97KRK0VY38" target="_blank" class="btn btn--blue">View Certificate</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              I am a recent graduate from Colorado State University with a Bachelor's degree
+              in Computer Science, currently pursuing a career as a Security Operations Center (SOC) Analyst/Cybersecurity Analyst.
+              Driven by a passion for securing networks and protecting systems, I have been actively working and acquiring multiple 
+              cybersecurity certifications to deepen my expertise. In addition to advancing my technical skills, I am also exploring 
+              opportunities to serve in the Air Force as an officer to contribute my knowledge and dedication to a broader mission.
+              I am committed to continuous learning and developing innovative solutions to today's cybersecurity challenges.
+            </p>
+            <!-- Provide a link to your resume -->
+            <!-- Provide a link to your resume -->
+
+            <a href="Trevor Lee's Resume .pdf" class="btn" target="_blank">My Resume</a>
+          </div>
+
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/Port_image.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          I am currently open to new opportunities where I can apply and expand my skills in cybersecurity.
+           I am eager to learn, grow, and contribute to innovative teams focused on securing systems and solving complex challenges.
+           If you're interested in connecting or have opportunities that align with my background, the best way to reach me is via the email provided below. 
+           I look forward to hearing from you!
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:lee8trevor@gmail.com" class="btn">lee8trevor@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://tryhackme.com/r/p/lee8trevor" target="_blank" title="Link to TryHackMe">
+            <img src="./images/THMlogo-gray_scale.png" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/Trevor23Lee" target="_blank" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/trevor-lee-801921231/" target="_blank" title="Link to Linkedin Profile">
+            <img src="./images/linkedin.svg"  class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+      <p>&copy; 2024 Trevor Lee. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
